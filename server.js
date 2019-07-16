@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');
 var twilio = require('twilio');
 
 // listen for requests :)
-var listener = app.listen(80, function () {
-  console.log('Your app is listening on port ' + 80);
+var listener = app.listen(3000, function () {
+  console.log('Your app is listening on port ' + 3000);
 });
 
 var io = require('socket.io')(listener);
